@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#container {
+   
+        width: 1250px;
+        height: 800px;
+        background-color: rgb(123, 123, 116);
+        border: 1px solid transparent ;
+        margin-left: auto;
+        margin-right: auto;
+      
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 5em;
+        margin-bottom: 5em;
+      
+    }
+    
+    .flex-item1{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(239, 228, 185);
+        border: 1px solid rgb(72, 66, 66);
+        box-shadow: 2px 2px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+    .flex-item2{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(186, 200, 124);
+        border: 1px solid black;
+        box-shadow: 1px 1px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+    .flex-item3{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(215, 177, 219);
+        border: 1px solid black;
+        box-shadow: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+
+    .flex-item4{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(186, 200, 124);
+        border: 1px solid rgb(128, 122, 122);
+        box-shadow: 1px 1px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+
+    .flex-item5{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(186, 200, 124);
+        border: 1px solid black;
+        box-shadow: 1px 1px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+    .flex-item6{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(215, 177, 219);
+        border: 1px solid black;
+        box-shadow: 1px 1px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+    .flex-item7{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(239, 228, 185);
+        border: 1px solid black;
+        box-shadow: 1px 1px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+    .flex-item8{
+        width: 300px;
+        height: 300px;
+        background-color:  rgb(186, 200, 124);
+        border: 1px solid black;
+        box-shadow: 1px 1px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: "Shadows Into Light", cursive;
+        font-size: 2em;
+        
+    }
+    p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 1em;
+        font-family: "Caveat", cursive;
+        font-size: 1.2em;
+    }
+   
+
+    .flex-item1{
+        transition: all 3s linear 0s;
+    }
+    
+    .flex-item1:hover{
+        transform: scaleX(1.5);
+         width: 300px;
+
+        background-color: aquamarine;
+       
+
+    }
+
+    
+    .flex-item2{
+        transition: all 1s linear 0s;
+    }
+    
+    .flex-item2:hover{
+        transform: scale3d(1.5, 1.5, 1.5);
+
+        background-color: rgb(4, 52, 37);
+        width: 250px;
+
+    }
+
+    .flex-item3{
+        transition: all 1s linear 0s;
+    }
+    
+    .flex-item3:hover{
+        transform: rotateZ(25deg);
+
+        background-color: rgb(4, 52, 37);
+        width: 250px;
+
+    }
+
+    .flex-item4{
+        transition: all 1s linear 0s;
+    }
+    
+    .flex-item4:hover{
+       transform: scaleX(1.5);
+         width: 300px;
+
+    }
+
+    .flex-item5{
+        transition: all 3s linear 0s;
+    }
+    
+    .flex-item5:hover{
+        transform: rotate3d(1, 1, 1, 292deg);
+         width: 500px;
+
+    }
+
+    .flex-item6{
+        transition: all 3s linear 0s;
+    }
+    
+    .flex-item6:hover{
+        transform: translate(400px) rotate(1350deg);
+         width: 100px;
+
+    }
+
+    .flex-item7{
+        transition: all 3s linear 0s;
+    }
+    
+    .flex-item7:hover{
+        transform:scale(1.5deg) rotate(1350deg);
+         width: 100px;
+
+    }
+
+    .flex-item8{
+        transition: all 1s linear 0s;
+    }
+    
+    .flex-item8:hover{
+        transform: scale3d(1.5, 1.5, 1.5);
+
+        background-color: rgb(111, 141, 131);
+        width: 250px;
+
+    }
